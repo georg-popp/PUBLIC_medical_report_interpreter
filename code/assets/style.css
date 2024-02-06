@@ -1,0 +1,38 @@
+/* Flex-Container für die gesamte Seite */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Mindesthöhe auf volle Bildschirmgröße setzen */
+}
+
+/* Flex-Container für die Inhaltsbereiche */
+.content-area {
+    flex: 1; /* Erlaubt den Bereichen, sich auszudehnen und zu schrumpfen */
+    padding: 1rem; /* Abstand zum Rand */
+}
+
+/* Klasse für DataTables */
+.data-table {
+    width: 100%;
+    overflow-x: auto; /* Ermöglicht horizontales Scrollen bei Bedarf */
+}
+
+/* Media Query für kleine Bildschirme */
+@media (max-width: 768px) {
+    /* Stile für kleine Bildschirme (z.B. Smartphones) */
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+/* Stellen Sie sicher, dass Bilder und iframes nicht breiter als ihre Container sind */
+img, iframe {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Anpassen der Pre-Formatierung für Textausgaben */
+pre {
+    white-space: pre-wrap; /* Erlaubt den Zeilenumbruch */
+    word-wrap: break-word; /* Erlaubt das Umbruch von langen Wörtern */
+}
