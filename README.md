@@ -34,12 +34,12 @@ Im Data Lake können folgende Datenformate enthalten sein:
 Potentielle Python Bibliotheken:
 
 - `pandas`, `numpy`: Datenmanipulation und Berechnungen
-- `scikit-learn`: Machine Learning-Algorithmen, Datenaufteilung, Normalisierung
-- `tensorflow`/`keras`: Tiefgehendes Lernen (Deep Learning)
-- `nltk`/`spaCy`: Natural Language Processing für Textdaten
+- `scikit-learn`: ML-Algorithmen, Datenaufteilung, Normalisierung
+- `tensorflow`/`keras`: Deep Learning
+- `nltk`/`spaCy`: NLP für Textdaten
 - `opencv`/`Pillow`: Bildverarbeitung
 - `flask`/`django`: Webanwendung für ML-Modelle
-- `docker`: Containerisierung der Anwendung
+- `docker`: Containerverwaltung
 - `joblib`/`pickle`: Speichern und Laden von trainierten Modellen
 
 ## Sicherheit und Datenschutz
